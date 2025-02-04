@@ -6,6 +6,15 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+flake8 = "*"
+black = "*"
+isort = "*"
+mypy = "*"
+bandit = "*"
+pytest = "*"
+pytest-django = "*"
+coverage = "*"
+django-stubs = "*"
 
 [requires]
 python_version = "3.12"
